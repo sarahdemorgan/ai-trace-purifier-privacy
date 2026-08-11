@@ -1,0 +1,22 @@
+Privacy Policy for AI Trace Purifier
+
+Effective Date: August 11, 2026
+
+AI Trace Purifier (the "Extension") is committed to protecting your privacy. This Privacy Policy explains our data practices.
+
+1. No Data Collection or Storage
+The Extension does not collect, record, save, store, or monitor any text, data, or inputs processed through the application interface. All data passing through the tool remains strictly localized within your personal device session. 
+
+2. Technical Operations & Local Execution
+All text purification, metadata scrubbing, and character stripping algorithms are executed entirely locally inside your browser context. No external cloud servers, APIs, or database connections are used to process your text. 
+
+3. Required Permissions
+The Extension utilises specific browser permissions to operate:
+• "clipboardRead" / "clipboardWrite": Used strictly to enable user-initiated features such as the "Paste Text" and "Copy Text" utility buttons. 
+• "scripting" / "activeTab": Used solely to scan active user text highlights on a page when the extension icon is clicked.
+
+4. Third-Party Sharing
+Because we do not collect or possess any user information, no data is ever shared, sold, or distributed to third-party entities.
+
+Contact
+For any questions regarding this privacy notice, please contact the developer via the official Chrome Web Store channel.

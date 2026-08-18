@@ -1,22 +1,26 @@
 Privacy Policy for AI Trace Purifier
 
-Effective Date: August 11, 2026
+Effective Date: August 18, 2026
 
 AI Trace Purifier (the "Extension") is committed to protecting your privacy. This Privacy Policy explains our data practices.
 
-1. No Data Collection or Storage
-The Extension does not collect, record, save, store, or monitor any text, data, or inputs processed through the application interface. All data passing through the tool remains strictly localized within your personal device session. 
+1. No Text Data Collection or Storage
+The Extension does not collect, record, save, store, or monitor any text, data, or inputs processed through the application interface. All text purification, metadata scrubbing, and character stripping algorithms are executed entirely locally inside your browser context. No text data is ever transmitted to external servers.
 
-2. Technical Operations & Local Execution
-All text purification, metadata scrubbing, and character stripping algorithms are executed entirely locally inside your browser context. No external cloud servers, APIs, or database connections are used to process your text. 
+2. Payments & Licensing Data Processing
+To provide premium features and manage subscriptions, the Extension integrates with ExtensionPay (a secure third-party payment management service powered by Stripe). 
+• When you upgrade to a premium tier, completely anonymous account tokens are transmitted securely to ExtensionPay to verify your subscription or lifetime license status.
+• Financial transactions, credit card data, and billing details are processed entirely by Stripe under their own strict security protocols. The Extension never sees or stores your financial information.
 
 3. Required Permissions
 The Extension utilises specific browser permissions to operate:
+• "storage": Used strictly to cache your local scan count limit and save your anonymous ExtensionPay authentication status token.
 • "clipboardRead" / "clipboardWrite": Used strictly to enable user-initiated features such as the "Paste Text" and "Copy Text" utility buttons. 
 • "scripting" / "activeTab": Used solely to scan active user text highlights on a page when the extension icon is clicked.
+• "host_permissions" (https://extensionpay.com*): Required exclusively to allow the local script to ping the licensing server to securely verify your premium plan status.
 
 4. Third-Party Sharing
-Because we do not collect or possess any user information, no data is ever shared, sold, or distributed to third-party entities.
+We do not collect or possess any personal user browse data or text inputs. No user data is ever shared, sold, or distributed to third-party entities, outside of the standard, secure licensing and transaction handling protocols executed by ExtensionPay and Stripe as detailed in Section 2.
 
 Contact
 For any questions regarding this privacy notice, please contact the developer via the official Chrome Web Store channel.
